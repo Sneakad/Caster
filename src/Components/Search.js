@@ -47,7 +47,7 @@ function Search({ setRes, setShortRes }) {
             <div className="input-container">
                 <input className="search-box" type="text" placeholder='Enter Location'
                     onChange={(e) => { setSearch(e.target.value) }} />
-                <img src={searchicon} className="img-icon" onClick={() => { getdata() }}></img>
+                <img src={searchicon} className="img-icon" onClick={() => { getdata() }} alt=""></img>
             </div>
         </div>
     )
