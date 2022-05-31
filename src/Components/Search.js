@@ -23,7 +23,7 @@ function Search({ setRes, setShortRes }) {
                 setRes(response.data)//passing the data object to app.js
                 console.log(response.data)
             }).catch((error) => {
-                alert("error in fetching")
+                alert("Not a Valid Location")
                 console.log(search)
             })
 
@@ -32,9 +32,6 @@ function Search({ setRes, setShortRes }) {
             .then((response) => {
                 setShortRes(response.data)//passing the data object to app.js
                 console.log(response.data)
-            }).catch((error) => {
-                alert("error in fetching")
-                console.log(search)
             })
     }
 

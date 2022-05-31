@@ -5,6 +5,8 @@ import Card from "./Components/Card";
 import './App.css';
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
+import { motion } from "framer-motion"
+
 
 
 function App() {
@@ -39,10 +41,10 @@ function App() {
         <div className="logo">
           Caster.io
         </div>
-        <div className="left-container">
+        <motion.div animate={{ width: res.city ? "60%" : "100%" }} className="left-container" >
           {/* passing setRes as prop to get back the object from the fetch */}
           <Search setRes={setRes} setShortRes={setShortRes} />
-        </div>
+        </motion.div>
         {!res.city ? <></> : <div className="right-container">
           <p className="texts1">Today</p>
           <div className="div-info"><Info shortRes={shortRes} /></div>
