@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<p align="center">   
+   <img src="https://user-images.githubusercontent.com/72182438/171155765-ab2682a2-7fa2-407c-bc3c-2b5be5635f00.png" width="100px">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   <h1 align="center">Caster.io</h1>
+   <p align="center">Get information about hourly weather of any location</p>
+</p>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+![React JS](https://img.shields.io/badge/React.js-black?style=for-the-badge&logo=react&logoColor=white)
 
-### `npm start`
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What is Caster.io ? 🤔
 
-### `npm test`
+A desktop web application using which you can find hourly eather updates for any spedcific location .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Checkout our app to learn more!
 
-### `npm run build`
+Link: https://casterio.netlify.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshot of the app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://user-images.githubusercontent.com/72182438/171152954-6fa119f2-1e03-4dd6-86e3-f2eacfd7f991.png" width="100%">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting started
 
-### `npm run eject`
+First, make sure you have all these installed on your local machine & then continue.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js v16.13.1^
+- NPM v8.1.0^
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Clone the repository
+git clone https://github.com/Sneakad/Caster.git
+# Enter into the client folder and install the dependencies
+cd client
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Enter into server folder and install the dependencies
+cd server
+npm install
+```
 
-## Learn More
+### ⚠️ Important!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In order to use this for your own purpose, check the .env in each of the directories.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Starting the application
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+# To start the client application
+npm start
+# To start server application
+npm run start
+```
