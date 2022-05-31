@@ -17,7 +17,7 @@
 
 A desktop web application using which you can find hourly eather updates for any spedcific location .
 
-## Checkout our app to learn more!
+## Checkout the app to learn more!
 
 Link: https://casterio.netlify.app/
 
