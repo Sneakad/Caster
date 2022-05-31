@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.search-head {
+    color: white;
+    font-size: 28px;
+}
+
+.search-cont {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container {
+    position: relative;
+}
+
+.img-icon {
+    position: absolute;
+    right: 20px;
+    width: 30px;
+    top: 10px;
+}
+
+.img-icon:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+
+}
+
+input {
+    width: 450px;
+    height: 50px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(24, 24, 24, 0.201);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.149);
+    color: white;
+    font-size: 20px;
+    font-weight: light;
+    padding-left: 20px;
+}
+
+input:focus {
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.201);
+    outline: none;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-family: 'Outfit', sans-serif;
+}
+
+.img-icon:active {
+    transform: translateY(-1px);
+}
+
+
+.img-icon::after {
+    background-color: #fff;
+}
+
+.img-icon:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}

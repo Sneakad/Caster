@@ -1,0 +1,27 @@
+.info-container {
+    font-size: 16px;
+    font-weight: 200px;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: rgb(184, 236, 225);
+    align-self: center;
+    padding: 20px;
+}
+
+.temp {
+    font-size: 22px;
+}
+
+.city {
+    font-size: 28px;
+}
+
+.desc {
+    font-size: 24px;
+}

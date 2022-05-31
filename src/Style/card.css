@@ -1,0 +1,25 @@
+.box-cont {
+    background-color: rgb(215, 215, 215);
+    height: 200px;
+    width: 210px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    display: flex;
+}
+
+
+.card-small {
+    height: 200px;
+    border: 2px solid black;
+}
+
+.img-card {
+    width: 100px;
+    right: 20px;
+}
+
+.box-1 {
+    font-size: 18px;
+}
