@@ -43,10 +43,9 @@ function App() {
           {/* passing setRes as prop to get back the object from the fetch */}
           <Search setRes={setRes} setShortRes={setShortRes} />
         </div>
-        <div className="right-container">
+        {!res.city ? <></> : <div className="right-container">
           <p className="texts1">Today</p>
           <div className="div-info"><Info shortRes={shortRes} /></div>
-
           <p className="texts">
             Hourly
           </p>
@@ -68,7 +67,7 @@ function App() {
               </Carousel>
             </div>
           </div>
-        </div>
+        </div>}
 
       </div>
     </div>
